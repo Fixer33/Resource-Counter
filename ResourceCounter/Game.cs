@@ -5,9 +5,6 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-//Made by Fixer33
-//https://github.com/Fixer33
-
 namespace ResourceCounter
 {
     [DataContract]
@@ -59,8 +56,6 @@ namespace ResourceCounter
         {
             this.game_name = game_name;
             this.all_components = new List<Component>();
-            //Made by Fixer33
-            //https://github.com/Fixer33
         }
         #endregion
     }

@@ -6,9 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//Made by Fixer33
-//https://github.com/Fixer33
-
 namespace ResourceCounter
 {
     [DataContract]

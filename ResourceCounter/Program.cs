@@ -4,9 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//Made by Fixer33
-//https://github.com/Fixer33
-
 namespace ResourceCounter
 {
     static class Program
