@@ -1,7 +1,13 @@
 ﻿namespace ResourceCounter
 {
+    //Made by Fixer33
+    //https://github.com/Fixer33
+
     partial class Main
     {
+        //Made by Fixer33
+        //https://github.com/Fixer33
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -70,14 +76,14 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.newGameToolStripMenuItem.Text = "New game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.NewGameToolStripMenuItem_Click);
             // 
             // openGameToolStripMenuItem
             // 
             this.openGameToolStripMenuItem.Name = "openGameToolStripMenuItem";
-            this.openGameToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openGameToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.openGameToolStripMenuItem.Text = "Open game";
             this.openGameToolStripMenuItem.Click += new System.EventHandler(this.OpenGameToolStripMenuItem_Click);
             // 
@@ -105,6 +111,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.Enabled = false;
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
@@ -135,6 +142,7 @@
             // 
             // listBox2
             // 
+            this.listBox2.Enabled = false;
             this.listBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
@@ -146,6 +154,7 @@
             // 
             // add_resource_but
             // 
+            this.add_resource_but.Enabled = false;
             this.add_resource_but.Location = new System.Drawing.Point(237, 90);
             this.add_resource_but.Name = "add_resource_but";
             this.add_resource_but.Size = new System.Drawing.Size(428, 23);
@@ -156,6 +165,7 @@
             // 
             // add_to_recipe_button
             // 
+            this.add_to_recipe_button.Enabled = false;
             this.add_to_recipe_button.Location = new System.Drawing.Point(237, 119);
             this.add_to_recipe_button.Name = "add_to_recipe_button";
             this.add_to_recipe_button.Size = new System.Drawing.Size(359, 23);
@@ -167,6 +177,7 @@
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.Enabled = false;
             this.numericUpDown1.Location = new System.Drawing.Point(602, 120);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             1000,
@@ -184,6 +195,7 @@
             // 
             // listBox3
             // 
+            this.listBox3.Enabled = false;
             this.listBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 20;
@@ -194,6 +206,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(277, 120);
             this.comboBox1.Name = "comboBox1";
@@ -202,6 +215,7 @@
             // 
             // calc_resources_but
             // 
+            this.calc_resources_but.Enabled = false;
             this.calc_resources_but.Location = new System.Drawing.Point(237, 147);
             this.calc_resources_but.Name = "calc_resources_but";
             this.calc_resources_but.Size = new System.Drawing.Size(428, 23);
