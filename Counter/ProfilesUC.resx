@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AddNewProfileBut.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LoadProfileBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 12pt</value>
+  </data>
+  <data name="SavedProfilesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 81</value>
+  </data>
+  <data name="SaveProfileInfoBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 12pt</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Name" xml:space="preserve">
+    <value>listBox1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SavedProfilesList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProfileNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 126</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SavedProfilesList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MBEmptyNameText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="listBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 14.25pt</value>
+  </data>
+  <data name="ProfileNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="MBEmptyNameText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 2</value>
+  </data>
+  <data name="&gt;&gt;SelectedProfileHeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AddNewProfileBut.Text" xml:space="preserve">
+    <value>Add new profile</value>
+  </data>
+  <data name="HeaderText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 40</value>
+  </data>
+  <data name="&gt;&gt;DeleteProfileButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SavedProfilesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 27</value>
+  </data>
+  <data name="AddNewProfileBut.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SelectedProfileHeader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DeleteProfileButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MBEmptyNameText.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="HeaderText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LoadProfileBut.Text" xml:space="preserve">
+    <value>Load existing profile</value>
+  </data>
+  <data name="&gt;&gt;HeaderText.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;LoadProfileBut.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="HeaderText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 24pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;MBEmptyNameText.Name" xml:space="preserve">
+    <value>MBEmptyNameText</value>
+  </data>
+  <data name="DeleteProfileButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 37</value>
+  </data>
+  <data name="MBEmptyNameText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="&gt;&gt;SavedProfilesList.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;HeaderText.Name" xml:space="preserve">
+    <value>HeaderText</value>
+  </data>
+  <data name="&gt;&gt;DeleteProfileButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ProfileNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 29</value>
+  </data>
+  <data name="SaveProfileInfoBut.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LoadProfileBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SelectedProfileHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 81</value>
+  </data>
+  <data name="ProfileNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 12pt</value>
+  </data>
+  <data name="&gt;&gt;SaveProfileInfoBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProfileNameTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="HeaderText.Text" xml:space="preserve">
+    <value>Profiles</value>
+  </data>
+  <data name="AddNewProfileBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 494</value>
+  </data>
+  <data name="&gt;&gt;SavedProfilesList.Name" xml:space="preserve">
+    <value>SavedProfilesList</value>
+  </data>
+  <data name="listBox1.ItemHeight" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="AddNewProfileBut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 12pt</value>
+  </data>
+  <data name="&gt;&gt;AddNewProfileBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ProfileNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MBEmptyNameText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DeleteProfileButton.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;SaveProfileInfoBut.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ProfileNameTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MBEmptyNameText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SelectedProfileHeader.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;AddNewProfileBut.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SelectedProfileHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SavedProfilesList.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>903, 561</value>
+  </data>
+  <data name="&gt;&gt;SelectedProfileHeader.Name" xml:space="preserve">
+    <value>SelectedProfileHeader</value>
+  </data>
+  <data name="&gt;&gt;SaveProfileInfoBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SaveProfileInfoBut.Text" xml:space="preserve">
+    <value>Save profile</value>
+  </data>
+  <data name="&gt;&gt;DeleteProfileButton.Name" xml:space="preserve">
+    <value>DeleteProfileButton</value>
+  </data>
+  <data name="LoadProfileBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 494</value>
+  </data>
+  <data name="SelectedProfileHeader.Text" xml:space="preserve">
+    <value>Selected profile</value>
+  </data>
+  <data name="&gt;&gt;AddNewProfileBut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SelectedProfileHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 27</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ProfilesUC</value>
+  </data>
+  <data name="MBEmptyNameText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 1.5pt</value>
+  </data>
+  <data name="SaveProfileInfoBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 37</value>
+  </data>
+  <data name="MBEmptyNameText.Text" xml:space="preserve">
+    <value>Can't save profile with empty name</value>
+  </data>
+  <data name="DeleteProfileButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;SaveProfileInfoBut.Name" xml:space="preserve">
+    <value>SaveProfileInfoBut</value>
+  </data>
+  <data name="&gt;&gt;HeaderText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ProfileNameTextBox.Name" xml:space="preserve">
+    <value>ProfileNameTextBox</value>
+  </data>
+  <data name="SelectedProfileHeader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 15.75pt</value>
+  </data>
+  <data name="&gt;&gt;SavedProfilesList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SavedProfilesList.Text" xml:space="preserve">
+    <value>Saved profiles</value>
+  </data>
+  <data name="HeaderText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 22</value>
+  </data>
+  <data name="SaveProfileInfoBut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 161</value>
+  </data>
+  <data name="LoadProfileBut.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;listBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AddNewProfileBut.Name" xml:space="preserve">
+    <value>AddNewProfileBut</value>
+  </data>
+  <data name="SaveProfileInfoBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LoadProfileBut.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 111</value>
+  </data>
+  <data name="DeleteProfileButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 204</value>
+  </data>
+  <data name="SaveProfileInfoBut.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="SelectedProfileHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;HeaderText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DeleteProfileButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 12pt</value>
+  </data>
+  <data name="HeaderText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProfileNameTextBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 436</value>
+  </data>
+  <data name="SavedProfilesList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Aldrich, 15.75pt</value>
+  </data>
+  <data name="DeleteProfileButton.Text" xml:space="preserve">
+    <value>Delete profile</value>
+  </data>
+  <data name="LoadProfileBut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LoadProfileBut.Name" xml:space="preserve">
+    <value>LoadProfileBut</value>
+  </data>
+  <data name="&gt;&gt;DeleteProfileButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LoadProfileBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 53</value>
+  </data>
+  <data name="&gt;&gt;LoadProfileBut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="MBEmptyNameText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AddNewProfileBut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 53</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
